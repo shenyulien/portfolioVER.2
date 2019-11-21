@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 搜尋頁面下面的描述 -->
+    <meta name="discription" content="沈佑璉,個人作品網站,產品設計,概念設計">
+    <title>YU-LIEN SHEN | 首頁</title>
+    <!-- 字體 -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Add the slick-theme -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="color"></div>
+        <div id="logo-text">
+            <div>
+                <span>Y</span>
+                <span>U</span>
+                <span>-</span>
+                <span>L</span>
+                <span>I</span>
+                <span>E</span>
+                <span>N</span>
+                <span>&nbsp;</span>
+                <span>S</span>
+                <span>H</span>
+                <span>E</span>
+                <span>N</span>
+            </div>
+        </div>
+    </div>
+    <header id="navigation">
+        <div id="logo"><a href="index.html"> YU-LIEN SHEN</a></div>
+        <nav id="nav-bar">
+            <a href="workspage.html">works</a>
+            <a href="">info</a>
+            <a href="">contact</a>
+        </nav>
+    </header>
+    <div id="main">
+
+        <div class=indexslider>
+            <section class="work1 ">
+                <div class="words">
+                    <h1>YUMMY</h1>
+                    <hr>
+                    <p>Ducks are the statesman with great achievements for protecting the crops on the beautiful Yilan
+                        plain,
+                        <!--br 換行  -->
+                        <!--hr 一條線 -->
+                        just like the parents will spare no efforts to protect there children with love forever.</p>
+                    <a href="yummy.html" class="button">→</a>
+                </div>
+                <div class="picture">
+                    <!-- dataspeed控制滑鼠移動圖片的速度 -->
+                    <img src="img/yummy.png" alt="yummy" data-speed=4>
+                </div>
+            </section>
+            <section class="work1 ufo  ">
+                <div class="words">
+                    <h1>Fire</h1>
+                    <h2>UFO</h2>
+                    <hr>
+                    <p>Installed in the corner, blended into the decor, does not take up space. </p>
+                    <p>When smoke is detected, it immediately flies out. </p>
+                    <p>Cooperate with app to protect the elderly from fire safety.</p>
+                    <a href="#" class="button">→</a>
+                </div>
+                <div class="picture">
+                    <!-- dataspeed控制滑鼠移動圖片的速度 -->
+                    <img src="img/fireufo.png" alt="fireufo" data-speed=4>
+                </div>
+            </section>
+            <section class="work1 light  ">
+                <div class="words">
+                    <h1>Return</h1>
+                    <hr>
+                    <p>The structures of the fair-faced concrete and extendable lamp brackets pairs up with the shape of
+                        a
+                        triangle highlights the exquisiteness of the design. It also echoes with the triangle-shaped
+                        architecture of the Asia University Museum of Modern Art. </p>
+                    <a href="light.html" class="button">→</a>
+                </div>
+                <div class="picture">
+                    <!-- dataspeed控制滑鼠移動圖片的速度 -->
+                    <img src="img/light.png" alt="light" data-speed=4>
+                </div>
+            </section>
+        </div>
+        <nav id="work-nav">
+            <!-- <a href="">YUMMY</a>
+            <a href="">Fire UFO</a>
+            <a href="">Return</a> -->
+        </nav>
+        <footer>
+            Copyright &copy;2019 Yu-Lien SHEN All right reserved
+        </footer>
+    </div>
+    <!-- jQuery要先放 css有$就放jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- 輪播特效 -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.indexslider').slick({
+            autoplay: true,
+            autoplayspeed: 1000,
+            arrows: false,
+            infinite: true,
+            dots: true,
+            appendDots: $("#work-nav"),
+            fade: true
+
+        });
+    </script>
+    <script>
+        //滑鼠移動特效 
+        document.addEventListener('mousemove', parallax);
+        // 圖片後面要加dataspeed
+
+        function parallax(e) {
+            this.querySelectorAll('.picture img').forEach(layer => {
+                // 圖片後面要加dataspeed
+                let speed = layer.getAttribute('data-speed');
+                let x = (window.innerWidth - e.pageX * speed) / 100;
+                let y = (window.innerWidth - e.pageY * speed) / 100;
+                layer.style.transform = `translate(${x}px, ${y}px)`;
+            });
+        }
+    </script>
+</body>
+
+</html>

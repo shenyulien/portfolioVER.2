@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <!-- RWD -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 搜尋頁面下面的描述 -->
+    <meta name="discription" content="沈佑璉,個人作品網站,產品設計,概念設計">
+    <title>YU-LIEN SHEN | works</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- 放在資料夾要加/ -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add the slick-theme -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <header id="navigation">
+        <div id="logo"><a href="index.html"> YU-LIEN SHEN</a></div>
+        <nav id="nav-bar">
+            <a href="workspage.html">works</a>
+            <a href="">info</a>
+            <a href="">contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="main">
+
+            <!-- 左邊導覽列 -->
+            <div class="tag">
+                <a class="btn-all">All</a>
+                <a class="btn-pd">Product Design</a>
+                <a class="btn-cd">Concept Design</a>
+                <a class="btn-web">Websites</a>
+            </div>
+            <!-- yummy -->
+            <section class="work-box pd">
+                <div class="work-box-left">
+                    <h2>YUMMY</h2>
+                    <a href="">#product design</a>
+                    <p>#chair for kids</p>
+                    <a href="yummy.html#material">#green material</a><br>
+                    <!-- 連結葉面一定要用id -->
+                    <a href="yummy.html#yilanchair">#The Yilan Chair Design Competition</a>
+                    <p>#honorable mention</p>
+                    <a href="yummy.html">→see more</a>
+                </div>
+                <div class="work-box-right">
+                    <img src="img/yummy3.jpg" alt="yummy">
+                    <img src="img/yummy2.jpg" alt="yummykid">
+                </div>
+            </section>
+            <!-- 燈 -->
+            <section class="work-box pd">
+                <div class="work-box-left">
+                    <h2>Return</h2>
+                    <a href="">#product design</a>
+                    <p>#light</p>
+                    <p>#souvenir of the museum</p>
+                    <a href="light.html#museum">#Asia University Museum of Modern Art</a>
+                    <p>#on the market</p>
+                    <a href="light.html">→see more</a>
+                </div>
+                <div class="work-box-right">
+                    <img src="img/light2.jpg" alt="light2">
+                    <img src="img/light3.jpg" alt="light3">
+                </div>
+            </section>
+            <!-- 顏木 -->
+            <section class="work-box pd">
+                <div class="work-box-left">
+                    <h2>YenMu</h2>
+                    <a href="">#product design</a>
+                    <p>#wood turning lathe</p>
+                    <p>#indigo dyeing</p>
+                    <p>#National Taiwan Craft Research and Development Institute</p><br>
+                    <a href="yenmu.html">→see more</a>
+                </div>
+                <div class="work-box-right">
+                    <img src="img/yenmu1.jpg" alt="chairtop">
+                    <img src="img/yenmu2.png" alt="chair">
+                    <img src="img/yenmu3.jpg" alt="yenmuall">
+                </div>
+            </section>
+
+
+            <!-- flag -->
+            <section class="work-box cd">
+                <div class="work-box-left">
+                    <h2>Flyin Flag</h2>
+                    <a href="">#concept design</a><br>
+                    <a href="">#drone</a><br>
+                    <a href="flag.html">→see more</a>
+                </div>
+                <div class="work-box-right">
+                    <img src="img/flag-vertic.png" alt="vertical">
+                </div>
+            </section>
+            <!-- UFO -->
+            <section class="work-box cd">
+                <div class="work-box-left">
+                    <h2>Fire UFO</h2>
+                    <a href="">#concept design</a><br>
+                    <a href="">#drone</a><br>
+                    <a href="ufo.html">→see more</a>
+                </div>
+                <div class="work-box-right">
+                    <img src="img/fireufo.png" alt="ufo">
+                </div>
+            </section>
+            <!-- plantpale -->
+            <section class="work-box cd">
+                <div class="work-box-left">
+                    <h2>Plant Pale</h2>
+                    <a href="">#concept design</a><br>
+                    <a href="">#care design</a><br>
+                    <a href="">#2017 Asia University Talent Youth Design Project</a><br>
+                    <a href="">→see more</a>
+                </div>
+                <div class="work-box-right">
+                    <img src="img/plantpale1.png" alt="plantpale1">
+                    <img src="img/plantpale2.png" alt="plantpale2">
+                    <img src="img/plantpale3.png" alt="plantpale3">
+                </div>
+            </section>
+           
+            <!-- jQuery要先放 css有$就放jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <!-- 輪播特效 -->
+            <script type="text/javascript"
+                src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+            <script>
+                $('.work-box-right').slick({
+                    autoplay: true,
+                    autoplayspeed: 1000,
+                    arrows: true,
+                    infinite: true,
+                    fade: true
+                });
+            </script>
+            <!-- 自己建的js -->
+            <script src="js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer>
+                Copyright &copy;2019 Yu-Lien SHEN All right reserved
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

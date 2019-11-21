@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <!-- RWD -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 搜尋頁面下面的描述 -->
+    <meta name="discription" content="沈佑璉,個人作品網站,產品設計,概念設計">
+    <title>YU-LIEN SHEN | YUMMY</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- 放在資料夾要加/ -->
+    <!-- Add the slick-theme -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="navigation">
+        <div id="logo"><a href="index.html"> YU-LIEN SHEN</a></div>
+        <nav id="nav-bar">
+            <a href="workspage.html">works</a>
+            <a href="">info</a>
+            <a href="">contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="main">
+            <div class="picture1">
+                <div class="title">
+                    <div>
+                        <h1>YUMMY</h1>
+                        <h2>-----The Yilan Chair Design Competition.</h2>
+                    </div>
+                    <div class="information1">
+                        Year<br>
+                        Project<br>
+                        Designer<br>
+                        Other<br>
+                        Material<br>
+                    </div>
+                    <div class="information2">
+                        2017<br>
+                        chair for kids<br>
+                        group project<br>
+                        honorable mention<br>
+                        straw, wood, bamboo, cloth<br>
+                    </div>
+                </div>
+                <div class="yummyslider">
+                    <div><img src="img/yummy3.jpg" alt="yummy"></div>
+                    <div class="yummyhover">
+                        <img src="img/yummy2.jpg" alt="yummykid">
+                        <p>Ducks are the statesman with great achievements for protecting the crops on the
+                            beautiful Yilan plain,<br>
+                            /<br>
+                            just like the parents will spare no efforts to protect there children with love forever.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section class="yilanchair" id="yilanchair">
+                <img src="img/yilanchair.jpg" alt="yilanchair">
+                <h2>The Yilan Chair Design Competition</h2>
+                <p>
+                    The Yilan Chair Design Competition came about as a vehicle to convey the
+                    passion and hospitality of the people of Yilan as well as the natural beauty of
+                    the county’s mountain forests.
+                    The original idea was to use innovative design in a way that connected to
+                    nature and daily life, while also reflecting the county government’s long
+                    term vision of developing Yilan into a “children’s dreamland” and “city of
+                    innovation.”
+                    The event has also been used as a focal point for the development of cultural
+                    and creative industry producing furniture, stationary and toys.
+                </p>
+            </section>
+            <section class="model">
+                <img src="img/yummy3D.png" alt="yummy3D">
+                <h2>Design Concept</h2>
+                <p> The pronounciation of YUMMY sounds like duck and rice in chinese. Ducks are the statesman with great
+                    achievements for protecting the crops on the beautiful Yilan plain. The duck on the top can be
+                    removed
+                    for the children to play, the farmland chair below allow the adult to join the game. People at all
+                    ages
+                    can enjoy the chair when the both parts are combined, grown-ups can experience the happiness of
+                    childhood, which makes the ordinary days become more fun. The aim of the design is to extend the
+                    life
+                    cycle of the product and make it an all ages available one.
+                </p>
+            </section>
+            <section class="material" id="material">
+                <h2>Green Material we use</h2>
+                <div class="materialiconwords">
+                    <img src="img/yummymaterial.png" alt="material">
+                    <p>
+                        bamboo /that has short life period <br>
+                        wood /strong enough to be at the bottom <br>
+                        straw /waste recycling with tenacity to weave
+                    </p>
+                </div>
+            </section>
+
+            <img class="process" src="img/yummyprocess .png" alt="process">
+
+
+            <footer>
+                Copyright &copy;2019 Yu-Lien SHEN All right reserved
+            </footer>
+        </div>
+    </div>
+    <!-- jQuery要先放 css有$就放jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- 輪播特效 -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.yummyslider').slick({
+            autoplay: true,
+            autoplayspeed: 1000,
+            arrows: true,
+            infinite: true,
+            fade: true
+        });
+    </script>
+</body>
+
+</html>

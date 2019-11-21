@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid rgba(194, 3, 3,0);
+    /* 盒子模式 預防跑板 */
+    box-sizing: border-box;
+    transition: 1s;
+}
+#main{
+    width: 92%;
+    margin: 0 auto;
+    /* 字體 */
+    font-family: 'Poiret One', cursive;
+    /* 跟營幕一樣高 vh=view height */
+    height:100vh;
+}

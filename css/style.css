@@ -1,0 +1,842 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid rgba(194, 3, 3,0);
+    /* 盒子模式 預防跑板 */
+    box-sizing: border-box;
+    /* transition: 1s; */
+    color: rgb(75, 73, 73);
+    font-family: 'Montserrat', sans-serif;
+}
+#main{
+    width: 92%;
+    margin: 0 auto;
+    /* 字體 */
+    font-family: 'Montserrat', sans-serif;
+    /* 跟營幕一樣高 vh=view height */
+    height:100vh;
+}
+
+/* 導覽列 */
+#navigation{
+    padding:20px 0;
+    overflow: hidden;
+    height:15vh;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(233, 231, 218, 0.842);
+    /* 前後順序1最前面 */
+    z-index: 1;
+}
+#logo{
+    float: left;
+    margin: 10px;
+    font-size: 2em;
+   
+}
+#logo a{
+    text-decoration: none;
+    color: #000
+}
+#nav-bar{
+    float: right;
+    margin: 10px;
+    font-size: 1em;
+    vertical-align: bottom;
+}
+#nav-bar a{
+    margin: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: #000;
+    /* 定位 相對定位(父元素) */
+    position: relative;
+    font-weight: 600;
+    transition: 1s;
+}
+#nav-bar a:hover{
+    color:  rgba(171, 202, 70, 0.87);
+}
+/* 偽元素 */
+#nav-bar a::before{
+    /* 要打才會空出位子 可以放括號標點符號 */
+    content:"";
+    /* 定位:絕對定位(子元素) */
+    position:absolute;
+    background-color: #000;
+    width: 90%;
+    height:1px;
+    margin:0 5%;
+    bottom:-3px;
+}
+/* class前面用. id前面用# */
+.picture img{
+
+    /* 自動縮放  fill/ contain/cover */
+    /* object-fit: contain; */
+    width: 120%;
+    /* 最大尺寸 */
+    max-width: 500px;
+    position: absolute;
+    left: 0%;
+    top:20%;
+}
+.picture{
+    background-color: rgba(171, 202, 70, 0);
+    position: relative;
+}
+.indexslider{
+    padding-top: 18vh;
+}
+.work1 .picture{
+    left:120px;  
+}
+.work1{
+    display: grid!important;
+    grid-template-columns: 40% 60%;
+    height:75vh;
+    /* 溢出的地方隱藏 */
+    overflow: hidden;
+}
+
+
+#main footer{
+    height:3vh;
+    text-align: center;
+    color: rgb(87, 88, 88);
+    margin-top: 10px;
+    font-size: 10px;
+}
+.words h1{
+   margin-top:40px; 
+   margin-bottom:30px;
+   color: rgba(171, 202, 70, 0.87);
+   font-size: 60px;
+}
+.words .button{
+  margin-top: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+  color: rgb(75, 73, 73);
+  transition:2s;
+}
+.words p{
+    line-height: 3;
+    font-weight: 550;
+     font-size: 0.9em;
+}
+.work1 .words p{
+    color: rgba(171, 202, 70, 0.87); 
+} 
+.ufo .words p{
+    color:rgb(241, 116, 58);
+}
+.light .words p{
+    color:rgb(81, 131, 179);
+} 
+
+.words{
+    margin:15px;
+}
+.words hr{
+    height:3px;
+    background-color:rgba(171, 202, 70, 0.609);
+    margin-bottom: 15px;
+}
+
+.words .button:hover{
+    padding-left:30px;
+}
+.ufo h2{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 50px;
+    color:rgb(241, 116, 58);
+}
+.ufo h1{
+    margin-top:5px;
+    margin-bottom: 0px;
+    color: rgb(241, 116, 58);
+}
+.ufo .words hr{
+   background-color:rgb(241, 116, 58);
+   margin-top: 10px;
+}
+/* 首頁背景圖 */
+.picture{
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x:0px;
+    background-position-y:0px; 
+}
+.ufo .picture{
+    position: relative;
+    }
+.ufo .picture img{
+    position: absolute;
+    top:10px;
+    left: -50px;
+    width:600px;
+    max-width: 600px;
+
+}
+/* 作品導覽列 */
+#work-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    height:3vh;
+}
+#work-nav a{
+    color: rgb(100, 99, 99);
+    text-decoration: none;
+    font-weight:700;
+    position: relative;
+}
+#work-nav a::after{
+    content:"";
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(100, 99, 99);
+    height:2px;
+    bottom:-5px;
+    left:0px; 
+    width: 0%;
+    transition: 1s
+}
+#work-nav a:hover::after{
+    width: 100%;
+}
+
+#work-nav a:nth-of-type(1){
+    color: rgba(171, 202, 70, 0.87);
+}
+#work-nav a:nth-of-type(1):after{
+    background-color: rgba(171, 202, 70, 0.87);
+}
+#work-nav a:nth-of-type(2):hover{
+    color:rgb(241, 116, 58);
+}
+#work-nav a:nth-of-type(2):after{
+    background-color:rgb(241, 116, 58);
+}
+#work-nav a:nth-of-type(3):hover{
+    color:rgb(47, 187, 223);
+}
+#work-nav a:nth-of-type(3):after{
+    background-color:rgb(47, 187, 223);
+}
+.light h1{
+margin-top:0px;
+color:rgb(89, 170, 190);   
+}
+.light .button{
+    margin-top: 0px;
+}
+.light .picture{
+    position: relative;
+    /* ../上一層資料夾 */
+    }
+
+.light .picture img {
+    width: 100%;
+    max-width: 800px;
+    position: absolute;
+    left:-200px;
+    top:-30px;
+}
+.light .words hr{
+    background-color:rgb(89, 170, 190);  
+}
+/* yummy start */
+.container{
+    min-width:1300px;
+    max-width:1300px;
+    margin: 0 auto ;
+    padding: 18vh;
+}
+.container img{
+    width: 100%;
+}
+.picture1 h1{
+    font-size: 60px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgba(171, 202, 70, 0.87);
+}
+.title h2{
+    font-size: 15px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    color: rgba(171, 202, 70, 0.87);
+}
+
+.title{
+    grid-template-columns:65% 5% 30%;
+    display: grid; 
+}
+.information1{
+    font-size: 13px; 
+}
+.information2{
+    text-align: right;
+    font-size: 13px;
+}
+
+.picture1 img{
+    width: 100%;
+    }
+/* 滑入顯示字 字跟圖片要在一個div */
+.yummyhover{
+    position: relative;
+}
+.yummyhover p{
+position: absolute;
+/* background-color:rgba(171, 202, 70, 0); */
+text-shadow: 2px 2px rgb(59, 58, 58);
+color: rgb(255, 255, 255);
+top:70%;
+left:60%;
+/* 變形位移 */
+/* transform:translateX(-50%) translateY(-50%); */
+opacity: 0;
+transition:2s;
+}
+.yummyhover:hover p{
+    opacity: 1;
+}
+.description{
+    text-align: center;   
+    margin:20px;
+        margin:0 auto 0 auto;
+    color: rgb(75, 73, 73);
+    font-size: 0.9em;
+}
+
+.yilanchair img{
+    width: 100%;
+}
+.yummyslider .slick-slide{
+    height:100%!important;
+}
+.yilanchair h2{
+    text-align: center;
+    margin:20px;
+    color:rgb(171, 202, 70);
+    }
+.yilanchair p{
+    text-align: center;
+    width:800px;
+    margin:0 auto 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+.model img{
+    width: 100%;
+}
+.model h2{
+    text-align: center;
+    margin:20px;
+    color:rgb(171, 202, 70);
+}
+.model p{
+    text-align: center;
+    width:800px;
+    margin:0 auto 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(75, 73, 73);
+    font-size: 0.9em;
+}
+.material img{
+    width: 100%;
+    }
+
+.materialiconwords{
+    display: grid;
+    grid-template-columns:10% 90%;
+    padding-left:180px;  
+    }
+.material p{
+    line-height: 5;
+    font-size: 1.5em;
+    color: rgb(75, 73, 73);
+}
+.material h2{
+    text-align: center;
+    color:rgb(171, 202, 70);
+ 
+}
+.material hr{
+    background-color: rgba(171, 202, 70, 0.87);
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top:100px;
+    left:570px;
+    }
+.process{
+    width:100%;
+}
+/* 燈 */
+.designconcept{
+    display:grid;
+    grid-template-columns:60% 40%; 
+    text-align: left;
+    
+}
+.light h1 {
+    color:rgb(81, 131, 179);
+}
+.light h2{
+    color:rgb(81, 131, 179);
+}
+.description h2{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.designconceptwords{
+    margin-left: 10px;
+    margin-top: 60px;
+   
+}
+.lightslider .slick-slide{
+    height:100%!important;
+}
+.shilogo img{
+    width: 100%;
+}
+.lightexploded{
+    width:70%;
+}
+.museumslider .slick-slide{
+    height:100%!important;
+}
+.museum img{
+    width: 100%;
+}
+.museum p{
+    text-align: center;
+    color: rgb(75, 73, 73);
+}
+.museum h2{
+    text-align: center;
+    color:rgb(81, 131, 179);
+    }
+
+.museum p{
+    margin:30px;
+    color: rgb(75, 73, 73);
+}
+.onsale p{
+    text-align: center;
+    color: rgb(75, 73, 73);
+}
+.onsale{
+    text-align: center;
+}
+/* 顏木 */
+.yenmu h1{
+    color: rgb(6, 72, 134);
+}
+.yenmu h2{
+    color: rgb(6, 72, 134);
+    margin-left:20px;
+    margin-top:0px;
+}
+.float-designconcept{
+    text-align: center;
+    line-height: 30px;
+}
+.woodexperiment{
+    text-align: center;
+    line-height: 30px;
+    }
+.woodtype{
+    zoom:0.18;
+}
+.woodtype img{
+    width:auto;
+    }
+
+.colorchart{
+    text-align: center;
+    line-height: 30px;
+}
+.modelingsample{
+    text-align: center;
+    line-height: 30px; 
+}
+.group{
+    text-align: center;
+    line-height: 30px;
+}
+
+.yenmuslider .slick-slide{
+    height:100%!important;
+}
+ 
+iframe{
+    width:100%;
+    height: 600px;
+}
+/* flag */
+.flag h1{
+    color: rgb(128, 148, 180);
+}
+.flag h2{
+    color: rgb(128, 148, 180); 
+}
+.flag .information1{
+    margin-top: 20px;
+}
+.flag .information2{
+    margin-top: 20px;
+}
+
+
+
+/* 作品頁 */
+.tag{
+    position: fixed;
+    min-width: 1200px;
+    max-width: 1200px;
+    bottom:8vh;
+
+    }
+.tag a{
+    display:block;
+    width:30%;
+    line-height: 40px;
+    cursor:pointer;
+    font-size: 15px;
+    
+}
+.work-box{
+    width:85%;
+    background-color: rgb(230, 223, 223);
+    height:550px;
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    margin-left: auto;
+    border-bottom:1.5px solid rgb(255, 255, 255);
+    }
+.work-box img{
+    object-fit: contain;
+    width: 100%;
+    height:500px;
+    margin:10px;
+    }
+.work-box-left{
+    margin:20px;
+    line-height: 30px;
+    font-size: 13px;
+    margin-top: 70px;
+    }
+.work-box-left a{
+    text-decoration: none; 
+    }
+.work-box-left h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.work-box ul, .work-box button{
+    display:none!important;
+}
+
+/* info */
+.timeline section{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border:0;
+}
+.year{
+    font-size: 50px;
+    margin-left: 50px;
+    border:0;
+    /* 時間線 */
+    border-right:1px solid rgb(100, 99, 99);
+    position: relative;
+    }
+.experience {
+ text-align: left!important;
+ padding-left: 50px;
+ }
+.experience p{
+display:none;
+}
+
+/* 偽元素 */
+.year::after{
+    content: "";
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(100, 99, 99);
+    /* 方形變圓形 */
+    border-radius: 50%;
+    position:absolute;
+    right:-6px;
+    top:15px;
+}
+/* 消失動畫 */
+.disappear{
+    /* 動畫:名字 秒數 停留在動畫的最後一個時間點 */
+    animation: disappear .5s forwards
+}
+@keyframes disappear{
+    100%{
+        height:0;
+        display:none;
+        transform: scale(0)
+        }       
+}
+/* 出現動畫 */
+.appear{
+    animation: appear .5s forwards
+}
+@keyframes appear{
+    0%{
+        height:0;
+        transform:scale(0)
+    }
+    100%{
+        height:550;
+        display:block;
+        transform:scale(1);
+    }
+}
+
+/* 外掛 */
+/* yummy */
+.slick-prev{
+    left:20px;
+    z-index: 1;
+}
+.slick-next{
+    right:20px;
+    z-index: 1;
+}
+/* slider出現 */
+.indexslider {
+    transform: scaleX(0);
+    transform-origin:100% 50%;
+    animation:3s 1 3.5s indexslider forwards ease;
+}
+@keyframes indexslider{
+    100%{
+        transform:scale(1);
+    }
+
+}
+/* 首頁外掛 */
+.slick-slide{
+    height:70vh;
+}
+.slick-dot li{
+    width: 80px;
+}
+.slick-dots{
+    position: static;
+    height:3vh;
+    display: flex!important;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.slick-dotted.slick-slider{
+    margin-bottom:0px;
+}
+/* 偽元素 */
+.slick-dots li:nth-child(1) button:before{
+    content: "YUMMY";
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    }
+.slick-dots li:nth-child(2) button:before{
+    content: "FIREUFO";
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;    
+}
+.slick-dots li:nth-child(3) button:before{
+    content: "RETURN";
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;    
+}
+.slick-dots li button:before{
+    opacity:1;
+    color: rgb(92, 86, 86)!important;
+}
+li.slick-active:nth-child(1) button:before{
+    color:  rgb(171, 202, 70)!important;
+}
+li.slick-active:nth-child(2) button:before{
+    color:  rgb(241, 116, 58)!important;
+}
+li.slick-active:nth-child(3) button:before{
+    color: rgb(81, 131, 179)!important;
+}
+/* 底線滑入效果 */
+.slick-dots li:before{
+    content:"";
+    position: absolute;
+    display: inline-block;
+    height:1.5px;
+    bottom:-5px;
+    left:0px; 
+    /* 原本0 */
+    width: 0%;
+    transition: 1s
+    }
+    /* 滑入時變300 */
+.slick-dots li:hover:before{
+    width:300%;
+}
+.slick-dots li:nth-child(1):before{
+    background-color: rgb(171, 202, 70);}
+.slick-dots li:nth-child(2):before{
+    background-color: rgb(241, 116, 58);}
+.slick-dots li:nth-child(3):before{
+    background-color:  rgb(81, 131, 179);}
+/* 被選到的時候固定底線 */
+.slick-dots li:nth-child(1).slick-active:before{
+    width:300%
+}
+.slick-dots li:nth-child(2).slick-active:before{
+    width:350%
+}
+.slick-dots li:nth-child(3).slick-active:before{
+    width:350%
+}
+
+/* loading */
+#loading{
+    height:100vh;
+    width:100vw;
+    position: fixed;
+    background-color: #fff;
+    top:0;
+    left:0;
+    z-index: 2;
+    animation:1s 1 4.1s loadout forwards ease-out;
+}
+@keyframes loadout{
+    100%{
+        transform: translateX(100vw);
+    }
+
+}
+#loading #color{
+    height: 100vh;
+    width: 0;
+    background-color:rgb(177, 150, 121);
+    z-index:3;
+    left:0;
+    /* animation ease */
+    animation: 1s 1 color forwards ;
+    }
+
+    @keyframes color{
+        0%{
+            width:0;
+        }
+        100%{
+            width: 100vw;
+        }
+    }
+
+#loading #logo-text{
+    height: 100vh;
+    width: 100vw;
+    
+    text-align: center;
+    display:grid;
+    align-items: center;
+    z-index: 4;
+    position: absolute;
+    top:0;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+#loading #logo-text span{
+    opacity:0;
+    color: #fff!important;
+}
+#loading #logo-text span:nth-of-type(1){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 1.1s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(2){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 1.3s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(3){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 1.5s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(4){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 1.7s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(5){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 1.9s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(6){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 2.1s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(7){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 2.3s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(8){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 2.5s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(9){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 2.7s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(10){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 2.9s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(11){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 3.1s logo forwards ease-in; 
+}
+#loading #logo-text span:nth-of-type(12){
+    /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
+    animation: 1s 1 3.3s logo forwards ease-in; 
+}
+@keyframes logo{
+    100%{
+        opacity:1;
+    }
+}
+/* RWD 螢幕小於767手機時變化 */
+@media screen and (max-width:767px){
+    #navigation{
+    font-size: 0.5em;
+    }
+    .work1{
+        display: grid;
+        grid-template-columns: 1fr;
+        height:900px;
+    }
+    .work1 .words{
+        height:400px;
+    }
+    .work1 .picture{
+        height:400px;
+    }
+    .ufo .picture img{
+        top:-100px;
+        left:-120px;
+    }
+    
+}
