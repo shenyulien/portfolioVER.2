@@ -497,7 +497,46 @@ iframe{
 .flag .information2{
     margin-top: 20px;
 }
-
+/* ufo */
+#ufop1{
+    background-color: rgb(5, 5, 5);
+    height:537px;    
+}
+#ufop1 img{
+    width: 500px;
+}
+#ufop1content{
+    display:inline-block;
+    margin-left:10px;
+    vertical-align: top;
+}
+#ufop1content h4 {
+    height: 85px;
+    color: #AC4343;
+    font-family: "Lucida Grande";
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+    
+}
+#ufop1content p{
+    height: 33px;
+    width: 384px;
+    color: #FDFBFB;
+    font-family: "PingFang TC";
+    font-size: 15px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+#ufop1content img{
+    height: 39px;
+    width: 128px;
+}
+#ufop1content hr{
+    height: 1px;
+    width: 58px;
+	border: 2px solid #AC4343;
+}
 
 
 /* 作品頁 */
