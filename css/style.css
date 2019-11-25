@@ -537,6 +537,66 @@ iframe{
     width: 58px;
 	border: 2px solid #AC4343;
 }
+#ufop2{
+    position: relative;
+}
+#ufop2content{
+    position: absolute;
+    top:180px;
+    text-align: center;
+    font-size: 12px;    
+}
+#ufop2content div{
+    float: left;
+    margin-left: 85px;
+}
+#ufop2content img{
+    height: 120px;
+    width: 120px;
+}
+#ufop3 h4{
+    color: rgb(235, 235, 235);
+    font-family: "Lucida Grande";
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-top: 20px;
+}
+#ufop3 p{
+    font-size:12px;
+    line-height: 25px;
+}
+#ufop3{
+    position: relative;
+}
+#ufop3imgL{
+    width: 220px;
+    margin-top: 20px;
+}
+#ufop3wordsL{
+    position: absolute;
+    left:270px;
+    top:200px;
+}
+#ufop3imgR{
+    position: absolute;
+    left:460px;
+    top:120px;
+    width: 250px;
+    margin-top: 20px;
+}
+#ufop3wordsR{
+    position: absolute;
+    left:750px;
+    top:200px;
+}
+
+
+
+
+
+
+
 
 
 /* 作品頁 */
