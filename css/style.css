@@ -695,6 +695,76 @@ iframe{
     left:340px;
     top: 85px;
 }
+#ufop8content img{
+    width: 230px;
+}
+#ufop8content{
+    position: relative;
+}
+#ufop8content h5{
+    text-align: center;
+    color: #E3C699;
+    font-family: "PingFang TC";
+    font-size: 20px;
+    margin-top: 20px;
+}
+#ufop8content p{
+    color: #979696;
+    font-family: "PingFang TC";
+	font-size: 12px;
+}
+#ufop8phone1{
+    position: absolute;
+    top: -2000px;
+    left:120px;    
+}
+#ufop8phone2{
+    position: absolute;
+    top: -1850px;
+    right:120px;
+}
+#ufop8phone3{
+    position: absolute;
+    top: -1250px;
+    left:90px;
+}
+#ufop8phone4{
+    position: absolute;
+    top: -1250px;
+    right:350px;
+}
+#ufop8phone4words1{
+    position: absolute;
+    top: -1100px;
+    right:210px;
+}
+#ufop8phone4words2{
+    position: absolute;
+    top: -1030px;
+    right:100px;
+}
+#ufop8phone5{
+    position: absolute;
+    top: -650px;
+    right:320px;
+}
+#ufop8phone6{
+    position: absolute;
+    top: -650px;
+    right:70px;
+}
+#ufop8phone5words1{
+    position: absolute;
+    top: -480px;
+    left:120px;
+}
+#ufop8phone5words2{
+    position: absolute;
+    top: -420px;
+    left:170px;
+}
+
+
 
 
 
