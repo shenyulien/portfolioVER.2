@@ -9,7 +9,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 #main{
-    width: 92%;
+    width: 100%;
     margin: 0 auto;
     /* 字體 */
     font-family: 'Montserrat', sans-serif;
@@ -763,8 +763,28 @@ iframe{
     top: -420px;
     left:170px;
 }
-
-
+/* plantpale */
+#plantp1{
+    position: relative;
+}
+#ppp1title{
+    position: absolute;
+    width: 300px;
+    left: 96px;
+    top: 250px;
+}
+#ppp1phone{
+    position: absolute;
+    width: 210px;
+    left: 480px;
+    top: 150px;
+}
+#ppp1stick{
+    position: absolute;
+    width: 210px;
+    left: 750px;
+    top:30px;
+}
 
 
 
