@@ -785,6 +785,219 @@ iframe{
     left: 750px;
     top:30px;
 }
+#plantp2{
+    position: relative;
+}
+#plantp2 h5{
+    color: #616161;	
+    font-family: "Oriya MN";	
+    font-size: 15px;	
+    line-height: 35px;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+}
+#p2title{
+    position: absolute;
+    width: 250px;
+    top: 180px;
+    left: 80px;
+}
+#p2using{
+    width:700px;
+    margin-left:280px;
+}
+#ppp2content p{
+    color: #DC9E8E;	
+    font-family: "Oriya MN";	
+    font-size: 15px;	
+    line-height: 30px;
+}
+#ppp2content{
+    position: absolute;
+    left: 260px;
+    top: 340px;
+}
+#plantp3{
+    position: relative;
+}
+#ppp3stick{
+    width: 230px;
+    margin-left: 50px;
+}
+.ppp3title{
+    color:#8EC7C3;
+    font-family: "Lucida Grande";	
+    font-size: 18px;	
+    line-height: 35px;
+}
+.ppp3content{
+    color: #616161;	
+    font-family: "Lucida Grande";	
+    font-size: 18px;	
+    line-height: 35px;
+}
+#ppp3electronic{
+    position: absolute;
+    top: 95px;
+    left: 320px;
+}
+#ppp3facial{
+    position: absolute;
+    width: 650px;
+    top: 180px;
+    left: 300px;
+}
+#ppp3soilsensor{
+    position: absolute;
+    top:550px;
+    left: 320px;
+}
+#ppp3speaker{
+    width: 340px;
+    margin-left: 650px;
+}
+#ppp3speakerwords{
+    position: absolute;
+    top: 770px;
+    text-align: right;
+    right: 360px;
+    width: 500px;
+}
+#ppp3phone{
+    position: absolute;
+    width: 400px;
+    top: 900px;
+}
+#ppp3phonewords{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#ppp3phonewords img{
+    position: absolute;
+    width: 150px;
+    left: 535px;   
+}
+#plantp4{
+    position: relative;
+}
+#ppp4iconp{
+    position: absolute;
+    width: 120px;
+    left: 400px;
+    top: 480px;    
+}
+#ppp4bg{
+margin-top: 220px;
+}
+#plantp5 h4{
+    position: absolute;
+    color: #E0E1E1;	
+    font-family: "Lucida Grande";	
+    font-size: 72px;	
+    line-height: 85px;
+    margin-top: 50px;
+}
+#plantp5 img{
+    margin-top: 50px;
+    width: 620px;
+    margin-left: 300px;
+
+}
+#plantp6 h4{
+    color: #E0E1E1;	
+    font-family: "Lucida Grande";	
+    font-size: 72px;
+}
+#ppp6iconlist{
+    margin-top: 50px;
+}
+#ppp6iconlist img{
+    width: 700px;
+    margin-top: 50px;
+}
+#ppp6color{
+    text-align: right;
+}
+#ppp6color img{
+    width: 600px;
+    margin-top: 50px;
+}
+#ppp6typeface img{
+    width: 370px;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+#plantp7 img{
+    margin-top: 50px;
+    width: 1000px;
+}
+#plantp8{
+    position: relative;
+}
+#plantp8 h4{
+    position: absolute;
+    color: #E8D7CF;	
+    font-family: "Lucida Grande";	
+    font-size: 60px;
+    top: 20px;
+    left: 50px;
+}
+#ppp8app{
+    position: absolute;
+    width: 400px;
+    top: 450px;
+    left: 500px;
+}
+#ppp8device{
+    position: absolute;
+    width: 550px;
+    top: 150px;
+    left: 80px;
+}
+#plantp9{
+    position: relative;
+}
+#ppp9gif{
+    position: absolute;
+    width: 300px;
+    left: 50px;
+    top: 30px;
+}
+#plantp10bg{
+    width: 700px;
+    margin-left: 150px;
+}
+#plantp10content h4{
+    color: #DC9E8E;	
+    font-family: "Lucida Grande";	
+    font-size: 28px;	
+}
+#plantp10content p{
+    color: #4A4A4A;	
+    font-family: "Lucida Grande";	
+    font-size: 12px;	
+    line-height: 30px;
+}
+#plantp10content img{
+    width: 160px;
+}
+#plantp10{
+    position: relative;
+}
+#ppp10temp{
+    position: absolute;
+    top: 160px;
+    left: 160px;
+}
+#ppp10tempcontent{
+    position: absolute;
+    top: 160px;
+    left: 360px;
+}
+
+
+
 
 
 
