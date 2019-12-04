@@ -890,6 +890,7 @@ iframe{
 #ppp4bg{
 margin-top: 220px;
 }
+
 #plantp5 h4{
     position: absolute;
     color: #E0E1E1;	
@@ -1092,8 +1093,20 @@ margin-top: 220px;
 #ppp11set{
     position: absolute;
     top: 830px;
-    right: 20px;
+    right: 20px;    
+}
+#plantp12{
+    position: relative;
+}
+#ppp12bg{
+    height: 250px;
+}
     
+#ppp12thank{
+    position: absolute;
+    top: 95px;
+    left: 200px;
+    width: 600px;
 }
 
 
