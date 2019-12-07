@@ -1108,12 +1108,75 @@ margin-top: 220px;
     left: 200px;
     width: 600px;
 }
-
-
-
-
-
-
+#kcsyscover{
+    position: relative;
+}
+#kcsys_covertitle{
+    position: absolute;
+    width: 450px;
+    left: 70px;
+    top: 80px;
+    z-index: 2;
+}
+#kcsys_coverh4{
+    position: absolute;
+    color: #ABF3FF;	
+    font-size: 36px;
+    line-height: 49px;
+    top: 216px;
+    left: 110px;
+}
+#kcsys_coverdot{
+    position: absolute;
+    width: 26px;
+    top: 230px;
+    left: 75px;
+}
+#kcsys_covercomputer{
+    position: absolute;
+    width: 551px;
+    top: 150px;
+    right: 50px;
+    z-index: 2;
+}
+#kcsys01{
+    position: relative;
+}
+#kcsys01h3{
+    position: absolute;
+    color: #A5B0BA;	
+    font-size: 150px;		
+    line-height: 205px;
+    top: 150px;
+    left: 50px;
+}
+#kcsys01frame{
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+#kcsys01bg{
+    margin-top: 12px;
+}
+#kcsys01h4{
+    position: absolute;
+    color: #013567;	
+    font-size: 36px;
+    line-height: 49px;
+    top: 190px;
+    left: 220px;
+}
+#kcsys01p{
+    position: absolute;
+    color: #013567;	
+    font-size: 18px;	
+    line-height: 25px;
+    top:300px;
+    left: 220px;
+}
+#kcsys02bg{
+    margin-top: 100px;
+}
 
 
 
