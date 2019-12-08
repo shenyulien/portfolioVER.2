@@ -1244,7 +1244,7 @@ margin-top: 220px;
 #kcsys0304img{
     position: absolute;
     width: 938px;
-    top: 600px;
+    top: 620px;
     left: 0px;
 }
 #kcsys03{
@@ -1257,8 +1257,87 @@ margin-top: 220px;
     left: 230px;
     z-index: 2;
 }
-
-
+#kcsys04{
+    top: 1430px;
+    right: 230px;
+}
+#kcsysotherpage{
+    top: 1460px;
+    right: 100px;
+}
+#kcsys0304 h5{
+    position: absolute;
+    color: #EAECEE;		
+    font-size: 28px;
+}
+#kcsys0304news{
+    top: 800px;
+    left: 36px;
+}
+#kcsys0304product{
+    top: 1120px;
+    left: 36px;
+}
+#kcsys0304contact{
+    top: 1670px;
+    right: 60px;
+}
+#kcsys0304p{
+    position: relative;
+    color: #395D85;		
+    font-size: 13px;
+}
+#kcsysnewsp{
+    position: absolute;
+    top:-1805px;
+    left: 135px;
+}
+#kcsysproductp{
+    position: absolute;
+    top: -1090px;
+    left: 160px;
+}
+#kcsyscontactp{
+    position: absolute;
+    top: -910px;
+    right: 60px;
+    text-align: right;
+}
+#kcsys0304clients{
+    top: 2030px;
+    left: 270px;
+}
+#kcsys0304business{
+    top: 2180px;
+    left: 400px;
+}
+#kcsys0304about{
+    top: 2230px;
+    right: 60px;
+}
+#kcsys05{
+    position: relative;
+}
+#kcsys05img{
+    position: absolute;
+    width: 630px;
+    top: 480px;
+    left: 180px;
+}
+#kcsys05 h3{
+    position: absolute;
+    color: #FFFFFF;	
+    font-size: 150px;
+    top: 220px;
+    right: 300px;
+}
+#kcsys05 h4{
+    position: absolute;
+    color: #ABF3FF;	
+    font-size: 40px;
+    right: 320px;
+    top: 400px;
+}
 
 
 
