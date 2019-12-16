@@ -9,7 +9,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 #main{
-    width: 100%;
+    width: 92%;
     margin: 0 auto;
     /* 字體 */
     font-family: 'Montserrat', sans-serif;
@@ -21,26 +21,29 @@
 #navigation{
     padding:20px 0;
     overflow: hidden;
-    height:15vh;
+    height:20vh;
     position: fixed;
     width: 100%;
     background-color: rgba(233, 231, 218, 0.842);
     /* 前後順序1最前面 */
     z-index: 1;
 }
+#navigationwords{
+    margin-left: 600px;
+}
 #logo{
-    float: left;
+    float: center;
     margin: 10px;
     font-size: 2em;
    
 }
 #logo a{
     text-decoration: none;
-    color: #000
+    color: #000;
+    text-align: center;   
 }
 #nav-bar{
-    float: right;
-    margin: 10px;
+    margin: 40px;
     font-size: 1em;
     vertical-align: bottom;
 }
@@ -101,11 +104,13 @@
 
 
 #main footer{
-    height:3vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(233, 231, 218, 0.842);
+    color: black;
     text-align: center;
-    color: rgb(87, 88, 88);
-    margin-top: 10px;
-    font-size: 10px;
 }
 .words h1{
    margin-top:40px; 
@@ -126,7 +131,7 @@
     font-weight: 550;
      font-size: 0.9em;
 }
-.work1 .words p{
+ /* .work1 .words p{
     color: rgba(171, 202, 70, 0.87); 
 } 
 .ufo .words p{
@@ -134,7 +139,7 @@
 }
 .light .words p{
     color:rgb(81, 131, 179);
-} 
+}  */
 
 .words{
     margin:15px;
@@ -163,7 +168,7 @@
    background-color:rgb(241, 116, 58);
    margin-top: 10px;
 }
-/* 首頁背景圖 */
+/* 首頁背景圖
 .picture{
     background-repeat: no-repeat;
     background-size: 80%;
@@ -180,7 +185,7 @@
     width:600px;
     max-width: 600px;
 
-}
+} */
 /* 作品導覽列 */
 #work-nav{
     display: flex;
@@ -254,7 +259,7 @@ color:rgb(89, 170, 190);
     min-width:1300px;
     max-width:1300px;
     margin: 0 auto ;
-    padding: 18vh;
+    padding-top: 22vh;
 }
 .container img{
     width: 100%;
@@ -497,6 +502,7 @@ iframe{
 .flag .information2{
     margin-top: 20px;
 }
+
 /* ufo */
 #ufop1{
     background-color: rgb(5, 5, 5);
@@ -1343,7 +1349,54 @@ margin-top: 220px;
 
 
 /* 作品頁 */
-.tag{
+.workhover img{
+    width: 280px;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.workhover {
+    position: relative;
+    width: 50%;
+  }
+  .hovertext {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .workhover:hover .image {
+    opacity: 0.2;
+  }
+  
+  .workhover:hover .hovertext {
+    opacity: 1;
+  }
+
+  .hovertext a {
+    color: rgb(98, 116, 37);
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+  }
+#indexpage{
+    position: relative;
+}
+.box{
+    padding:15px;
+    margin:40px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+/* .tag{
     position: fixed;
     min-width: 1200px;
     max-width: 1200px;
@@ -1360,10 +1413,9 @@ margin-top: 220px;
 }
 .work-box{
     width:85%;
-    background-color: rgb(230, 223, 223);
     height:550px;
     display: grid;
-    grid-template-columns: 30% 70%; 
+    grid-template-columns: 33% 33% 33%;  
     margin-left: auto;
     border-bottom:1.5px solid rgb(255, 255, 255);
     }
@@ -1388,7 +1440,7 @@ margin-top: 220px;
 }
 .work-box ul, .work-box button{
     display:none!important;
-}
+} */
 
 /* info */
 .timeline section{
