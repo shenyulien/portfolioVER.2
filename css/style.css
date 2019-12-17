@@ -1251,7 +1251,7 @@ margin-top: 220px;
     position: absolute;
     width: 938px;
     top: 620px;
-    left: 0px;
+    left: 100px;
 }
 #kcsys03{
     top: 565px;
@@ -1265,11 +1265,11 @@ margin-top: 220px;
 }
 #kcsys04{
     top: 1430px;
-    right: 230px;
+    right: 330px;
 }
 #kcsysotherpage{
     top: 1460px;
-    right: 100px;
+    right: 200px;
 }
 #kcsys0304 h5{
     position: absolute;
@@ -1278,15 +1278,15 @@ margin-top: 220px;
 }
 #kcsys0304news{
     top: 800px;
-    left: 36px;
+    left: 136px;
 }
 #kcsys0304product{
     top: 1120px;
-    left: 36px;
+    left: 136px;
 }
 #kcsys0304contact{
     top: 1670px;
-    right: 60px;
+    right: 160px;
 }
 #kcsys0304p{
     position: relative;
@@ -1295,54 +1295,61 @@ margin-top: 220px;
 }
 #kcsysnewsp{
     position: absolute;
-    top:-1805px;
-    left: 135px;
+    top:-2217px;
+    left: 235px;
 }
 #kcsysproductp{
     position: absolute;
-    top: -1090px;
-    left: 160px;
+    top: -1500px;
+    left: 260px;
 }
 #kcsyscontactp{
     position: absolute;
-    top: -910px;
-    right: 60px;
+    top: -1315px;
+    right: 160px;
     text-align: right;
 }
 #kcsys0304clients{
     top: 2030px;
-    left: 270px;
+    left: 370px;
 }
 #kcsys0304business{
     top: 2180px;
-    left: 400px;
+    left: 500px;
 }
 #kcsys0304about{
     top: 2230px;
-    right: 60px;
+    right: 160px;
 }
 #kcsys05{
     position: relative;
 }
+#kcsys05bg{
+    position: absolute;
+    top: -380px;
+}
 #kcsys05img{
     position: absolute;
-    width: 630px;
-    top: 480px;
-    left: 180px;
+    width: 700px;
+    top: 250px;
+    left: 220px;
+}
+#kcsysfooter{
+    margin-top: 1400px;
 }
 #kcsys05 h3{
     position: absolute;
     color: #FFFFFF;	
     font-size: 150px;
-    top: 220px;
-    right: 300px;
+    top: 40px;
+    right: 390px;
 }
 #kcsys05 h4{
     position: absolute;
     color: #ABF3FF;	
     font-size: 40px;
-    right: 320px;
-    top: 400px;
+    right: 390px;
+    top: 240px;
 }
 
 
@@ -1373,7 +1380,7 @@ margin-top: 220px;
   }
   
   .workhover:hover .image {
-    opacity: 0.2;
+    opacity: 0.15;
   }
   
   .workhover:hover .hovertext {
@@ -1382,9 +1389,10 @@ margin-top: 220px;
 
   .hovertext a {
     color: rgb(98, 116, 37);
-    font-size: 16px;
-    padding: 16px 32px;
+    font-size: 18px;
+    /* padding: 16px 32px; */
     text-decoration: none;
+    /* text-align: left; */
   }
 #indexpage{
     position: relative;
