@@ -21,7 +21,7 @@
 #navigation{
     padding:20px 0;
     overflow: hidden;
-    height:20vh;
+    height:20.5vh;
     /* position: fixed; */
     width: 100%;
     background-color: rgba(249, 243, 237, 0.808);
@@ -154,7 +154,7 @@
 .words .button:hover{
     padding-left:30px;
 }
-.ufo h2{
+/* .ufo h2{
     font-size: 50px;
     margin-top: 0px;
     margin-left: 50px;
@@ -168,7 +168,7 @@
 .ufo .words hr{
    background-color:rgb(241, 116, 58);
    margin-top: 10px;
-}
+} */
 /* 首頁背景圖
 .picture{
     background-repeat: no-repeat;
@@ -331,6 +331,7 @@ transition:2s;
     text-align: center;
     margin:20px;
     color:rgb(171, 202, 70);
+    font-size: 40px;
     }
 .yilanchair p{
     text-align: center;
@@ -338,7 +339,7 @@ transition:2s;
     margin:0 auto 0 auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 0.9em;
+    font-size: 15px;
 }
 .model img{
     width: 100%;
@@ -347,6 +348,7 @@ transition:2s;
     text-align: center;
     margin:20px;
     color:rgb(171, 202, 70);
+    font-size: 40px;
 }
 .model p{
     text-align: center;
@@ -355,10 +357,12 @@ transition:2s;
     margin-top: 10px;
     margin-bottom: 20px;
     color: rgb(75, 73, 73);
-    font-size: 0.9em;
+    font-size: 15px;
 }
 .material img{
-    width: 100%;
+    width: 85%;
+    margin-top: px;
+    margin-left: 50px;
     }
 
 .materialiconwords{
@@ -370,10 +374,13 @@ transition:2s;
     line-height: 5;
     font-size: 1.5em;
     color: rgb(75, 73, 73);
+    margin-left: 100px;
 }
 .material h2{
     text-align: center;
     color:rgb(171, 202, 70);
+    font-size: 40px;
+    margin-top: 10px;
  
 }
 .material hr{
@@ -524,7 +531,7 @@ iframe{
     font-size: 60px;
     font-weight: bold;
     margin-top: 150px;
-    
+    margin-left: 120px;    
 }
 #ufop1content p{
     height: 33px;
@@ -534,32 +541,34 @@ iframe{
     font-size: 15px;
     line-height: 33px;
     margin-bottom: 10px;
+    margin-left: 120px;
 }
 #ufop1content img{
     height: 39px;
     width: 128px;
+    margin-left: 120px;
 }
 #ufop1content hr{
     height: 1px;
     width: 58px;
-	border: 2px solid #AC4343;
+    border: 2px solid #AC4343;
+    margin-left: 120px;
 }
 #ufop2{
     position: relative;
 }
 #ufop2content{
     position: absolute;
-    top:180px;
+    top:220px;
     text-align: center;
-    font-size: 12px;    
+    font-size: 15px;    
 }
 #ufop2content div{
     float: left;
-    margin-left: 85px;
+    margin-left: 95px;
 }
 #ufop2content img{
-    height: 120px;
-    width: 120px;
+    width: 180px;
 }
 #ufop3 h4{
     color: rgb(235, 235, 235);
@@ -579,22 +588,23 @@ iframe{
 #ufop3imgL{
     width: 220px;
     margin-top: 20px;
+    margin-left: 100px;
 }
 #ufop3wordsL{
     position: absolute;
-    left:270px;
+    left:370px;
     top:200px;
 }
 #ufop3imgR{
     position: absolute;
-    left:460px;
+    left:610px;
     top:120px;
     width: 250px;
     margin-top: 20px;
 }
 #ufop3wordsR{
     position: absolute;
-    left:750px;
+    left:900px;
     top:200px;
 }
 #ufop4{
