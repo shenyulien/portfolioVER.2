@@ -843,6 +843,7 @@ iframe{
     font-family: "Lucida Grande";	
     font-size: 18px;	
     line-height: 35px;
+    right: 100px;
 }
 #ppp3electronic{
     position: absolute;
@@ -875,6 +876,7 @@ iframe{
     position: absolute;
     width: 400px;
     top: 900px;
+    left: 0px;
 }
 #ppp3phonewords{
     margin-left: 400px;
