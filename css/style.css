@@ -24,7 +24,7 @@
     height:20.5vh;
     /* position: fixed; */
     width: 100%;
-    background-color: rgba(249, 243, 237, 0.808);
+    background-color: rgb(249, 243, 237);
     /* 前後順序1最前面 */
     z-index: 3;
 }
@@ -1746,47 +1746,47 @@ li.slick-active:nth-child(3) button:before{
 }
 #loading #logo-text span:nth-of-type(2){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 1.3s logo forwards ease-in; 
+    animation: 1s 1 1.2s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(3){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 1.5s logo forwards ease-in; 
+    animation: 1s 1 1.3s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(4){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 1.7s logo forwards ease-in; 
+    animation: 1s 1 1.4s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(5){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 1.9s logo forwards ease-in; 
+    animation: 1s 1 1.5s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(6){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 2.1s logo forwards ease-in; 
+    animation: 1s 1 1.6s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(7){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 2.3s logo forwards ease-in; 
+    animation: 1s 1 1.7s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(8){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 2.5s logo forwards ease-in; 
+    animation: 1s 1 1.8s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(9){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 2.7s logo forwards ease-in; 
+    animation: 1s 1 1.9s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(10){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 2.9s logo forwards ease-in; 
+    animation: 1s 1 2.0s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(11){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 3.1s logo forwards ease-in; 
+    animation: 1s 1 2.1s logo forwards ease-in; 
 }
 #loading #logo-text span:nth-of-type(12){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
-    animation: 1s 1 3.3s logo forwards ease-in; 
+    animation: 1s 1 2.2s logo forwards ease-in; 
 }
 @keyframes logo{
     100%{
