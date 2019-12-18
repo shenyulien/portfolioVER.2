@@ -591,10 +591,13 @@ iframe{
 }
 #ufop2content div{
     float: left;
-    margin-left: 95px;
+    margin-left: 54px;
+}
+#ufop2content p{
+    margin-top: 20px;
 }
 #ufop2content img{
-    width: 180px;
+    width: 150px;
 }
 #ufop3 h4{
     color: rgb(235, 235, 235);
@@ -649,20 +652,20 @@ iframe{
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 6px;
-    margin-top: 220px;
-    margin-left: 20px;
+    margin-top: 300px;
+    margin-left: 50px;
 }
 #ufop4 p{
     font-size:12px;
     line-height: 25px;
-    margin-top: 200px;
+    margin-top: 260px;
     margin-left:20px;
 }
 #ufop5{
     position: relative;
 }
 #ufop5 h4{
-    color: rgba(168, 168, 168, 0.534);
+    color: rgba(255, 255, 255, 0.993);
     font-family: "Lucida Grande";
     font-size: 30px;
     font-weight: bold;
@@ -670,49 +673,52 @@ iframe{
 }
 
 #ufologoimg{
-    width: 100px;
+    width: 120px;
     position: absolute;
-    left:200px;
+    left:300px;
     top:50px;
 }
 #ufocolorsimg{
-    width: 220px;
-    position: absolute;
-    left:80px;
-    top:210px;
-}
-#ufoiconsimg{
     width: 300px;
     position: absolute;
-    left:200px;
-    top:350px;
+    left:180px;
+    top:280px;
+}
+#ufoiconsimg{
+    width: 400px;
+    position: absolute;
+    left:300px;
+    top:450px;
 }
 #ufop5phone{
-    width:220px;
+    width:290px;
     position: absolute;
     right:50px;
     top:40px;
 }
 #ufologowords{
     position: absolute;
-    left:60px;
+    left:100px;
     top:70px;   
 }
 #ufocolorswords{
     position: absolute;
-    left:325px;
-    top:227px;   
+    left:500px;
+    top:290px;   
 }
 #ufoiconswords{
     position: absolute;
-    left:60px;
-    top:377px;     
+    left:100px;
+    top:480px;     
 }
 #ufocolorcode{
     font-size: 12px;
     position: absolute;
-    left:70px;
-    top:260px;
+    left:180px;
+    top:360px;
+}
+#ufocolorcode p{
+    color: #fff;
 }
 #ufop6 h4{
     color: rgb(235, 235, 235);
@@ -728,18 +734,18 @@ iframe{
 }
 #ufop7bg{
     position:absolute;
-    width: 400px;
-    left:260px;
-    top: 100px;
+    width: 460px;
+    left:350px;
+    top: 120px;
 }
 #ufop7ani{
     position: absolute;
-    width:220px;
-    left:340px;
+    width:270px;
+    left:440px;
     top: 85px;
 }
 #ufop8content img{
-    width: 230px;
+    width: 250px;
 }
 #ufop8content{
     position: relative;
@@ -759,52 +765,52 @@ iframe{
 #ufop8phone1{
     position: absolute;
     top: -2000px;
-    left:120px;    
+    left:220px;    
 }
 #ufop8phone2{
     position: absolute;
     top: -1850px;
-    right:120px;
+    right:220px;
 }
 #ufop8phone3{
     position: absolute;
     top: -1250px;
-    left:90px;
+    left:190px;
 }
 #ufop8phone4{
     position: absolute;
     top: -1250px;
-    right:350px;
+    right:450px;
 }
 #ufop8phone4words1{
     position: absolute;
     top: -1100px;
-    right:210px;
+    right:310px;
 }
 #ufop8phone4words2{
     position: absolute;
     top: -1030px;
-    right:100px;
+    right:260px;
 }
 #ufop8phone5{
     position: absolute;
     top: -650px;
-    right:320px;
+    right:420px;
 }
 #ufop8phone6{
     position: absolute;
     top: -650px;
-    right:70px;
+    right:170px;
 }
 #ufop8phone5words1{
     position: absolute;
     top: -480px;
-    left:120px;
+    left:220px;
 }
 #ufop8phone5words2{
     position: absolute;
     top: -420px;
-    left:170px;
+    left:270px;
 }
 /* plantpale */
 #plantp1{
