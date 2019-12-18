@@ -48,6 +48,7 @@ $(".experience h2").click(function () {
     $(this).next("p").slideToggle();
 });
 
+// backtotopbutton
 //Get the button:
 mybutton = document.getElementById("myBtn");
             

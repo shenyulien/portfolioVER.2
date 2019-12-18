@@ -1456,6 +1456,35 @@ margin-top: 220px;
     display:inline-block;
     vertical-align:top;
 }
+/* information */
+.myinformation{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    margin-bottom: 120px;
+    margin-top: 90px;
+}
+.myinformation h2{
+    color: #FFAF20;
+    font-size: 30px;
+    margin-bottom: 0px;    
+}
+.myinformation p{
+    color: #10455B;
+    font-size: 20px;
+}
+.information1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.information2{
+    margin-top: 20px;
+    border-left:1.5px  #10455B solid;
+    padding-left: 80px;
+}
+.skillcontent p{
+    line-height: 35px;
+
+}
 
 /* .tag{
     position: fixed;
