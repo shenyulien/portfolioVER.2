@@ -316,7 +316,7 @@ transition:2s;
 .description{
     text-align: center;   
     margin:20px;
-        margin:0 auto 0 auto;
+    margin:0 auto 0 auto;
     color: rgb(75, 73, 73);
     font-size: 0.9em;
 }
@@ -330,8 +330,8 @@ transition:2s;
 .yilanchair h2{
     text-align: center;
     margin:20px;
-    color:rgb(171, 202, 70);
-    font-size: 40px;
+    color:#FFAF20;
+    font-size: 30px;
     }
 .yilanchair p{
     text-align: center;
@@ -347,8 +347,8 @@ transition:2s;
 .model h2{
     text-align: center;
     margin:20px;
-    color:rgb(171, 202, 70);
-    font-size: 40px;
+    color:#FFAF20;
+    font-size: 30px;
 }
 .model p{
     text-align: center;
@@ -378,8 +378,8 @@ transition:2s;
 }
 .material h2{
     text-align: center;
-    color:rgb(171, 202, 70);
-    font-size: 40px;
+    color:#FFAF20;
+    font-size: 30px;
     margin-top: 10px;
  
 }
@@ -1472,11 +1472,11 @@ margin-top: 220px;
     color: #10455B;
     font-size: 20px;
 }
-.information1{
+.myinformation1{
     margin-left: 50px;
     margin-top: 20px;
 }
-.information2{
+.myinformation2{
     margin-top: 20px;
     border-left:1.5px  #10455B solid;
     padding-left: 80px;
@@ -1767,7 +1767,7 @@ li.slick-active:nth-child(3) button:before{
 }
 #loading #logo-text span{
     opacity:0;
-    color: #fff!important;
+    color: #10455B!important;
 }
 #loading #logo-text span:nth-of-type(1){
     /* 動畫時間 動畫次數 延遲時間 停在最後一格 */
