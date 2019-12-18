@@ -1440,10 +1440,13 @@ margin-top: 220px;
 
   .hovertext a {
     color: #10455B;
-    font-size: 18px;
+    font-size: 20px;
     /* padding: 16px 32px; */
     text-decoration: none;
     /* text-align: left; */
+  }
+  .hovertext h6{
+      color: rgb(175, 118, 20);
   }
 #indexpage{
     position: relative;
@@ -1457,31 +1460,38 @@ margin-top: 220px;
 /* information */
 .myinformation{
     display: grid;
-    grid-template-columns: 33% 33% 34%;
-    margin-bottom: 120px;
+    grid-template-columns: 29% 37% 19% 15%;
+    margin-bottom: 150px;
     margin-top: 90px;
 }
 .myinformation h2{
     color: #FFAF20;
-    font-size: 30px;
-    margin-bottom: 0px;    
+    font-size: 30px;  
 }
 .myinformation p{
     color: #10455B;
     font-size: 20px;
 }
 .myinformation1{
-    margin-left: 50px;
     margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 .myinformation2{
     margin-top: 20px;
     border-left:1.5px  #10455B solid;
-    padding-left: 80px;
+    padding-left: 30px;
 }
 .skillcontent p{
     line-height: 35px;
-
+}
+.skillcontent2{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.skillcontent2 p{
+    line-height: 35px;
 }
 
 /* .tag{
