@@ -7,6 +7,7 @@
     /* transition: 1s; */
     color: rgb(75, 73, 73);
     font-family: 'Montserrat', sans-serif;
+    
 }
 #main{
     width: 92%;
@@ -273,7 +274,7 @@ color:rgb(89, 170, 190);
     color: #10455B;
 }
 .title h2{
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 80px;
     margin-bottom: 10px;
     color: #FFAF20;
@@ -564,7 +565,7 @@ iframe{
     width: 384px;
     color: #FDFBFB;
     font-family: "PingFang TC";
-    font-size: 15px;
+    font-size: 18px;
     line-height: 33px;
     margin-bottom: 10px;
     margin-left: 120px;
@@ -587,11 +588,11 @@ iframe{
     position: absolute;
     top:220px;
     text-align: center;
-    font-size: 15px;    
+    font-size: 16px;    
 }
 #ufop2content div{
     float: left;
-    margin-left: 54px;
+    margin-left: 48px;
 }
 #ufop2content p{
     margin-top: 20px;
@@ -600,7 +601,7 @@ iframe{
     width: 150px;
 }
 #ufop3 h4{
-    color: rgb(235, 235, 235);
+    color: rgb(163, 162, 162);
     font-family: "Lucida Grande";
     font-size: 72px;
     font-weight: bold;
@@ -608,7 +609,7 @@ iframe{
     margin-top: 20px;
 }
 #ufop3 p{
-    font-size:12px;
+    font-size:15px;
     line-height: 25px;
 }
 #ufop3{
@@ -621,7 +622,7 @@ iframe{
 }
 #ufop3wordsL{
     position: absolute;
-    left:370px;
+    left:330px;
     top:200px;
 }
 #ufop3imgR{
@@ -638,25 +639,23 @@ iframe{
 }
 #ufop4{
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 40% 15% 45%;
     margin: 20px;
 }
 #ufo4 img{
     width:300;
-    margin-left: 0;
-    
 }
 #ufop4 h4{
-    color: rgb(235, 235, 235);
+    color: rgb(163, 162, 162);
     font-family: "Lucida Grande";
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 6px;
     margin-top: 300px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 #ufop4 p{
-    font-size:12px;
+    font-size:15px;
     line-height: 25px;
     margin-top: 260px;
     margin-left:20px;
@@ -721,7 +720,7 @@ iframe{
     color: #fff;
 }
 #ufop6 h4{
-    color: rgb(235, 235, 235);
+    color: rgb(163, 162, 162);
     font-family: "Lucida Grande";
     font-size: 60px;
     font-weight: bold;
@@ -752,15 +751,15 @@ iframe{
 }
 #ufop8content h5{
     text-align: center;
-    color: #E3C699;
+    color: rgb(226, 150, 36);
     font-family: "PingFang TC";
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
 }
 #ufop8content p{
     color: #979696;
     font-family: "PingFang TC";
-	font-size: 12px;
+	font-size: 18px;
 }
 #ufop8phone1{
     position: absolute;
@@ -790,7 +789,7 @@ iframe{
 #ufop8phone4words2{
     position: absolute;
     top: -1030px;
-    right:260px;
+    right:220px;
 }
 #ufop8phone5{
     position: absolute;
@@ -810,7 +809,7 @@ iframe{
 #ufop8phone5words2{
     position: absolute;
     top: -420px;
-    left:270px;
+    left:100px;
 }
 /* plantpale */
 #plantp1{
@@ -840,7 +839,7 @@ iframe{
 #plantp2 h5{
     color: #616161;	
     font-family: "Oriya MN";	
-    font-size: 18px;	
+    font-size: 24px;	
     line-height: 35px;
     position: absolute;
     top: 260px;
@@ -857,15 +856,15 @@ iframe{
     margin-left:450px;
 }
 #ppp2content p{
-    color: #DC9E8E;	
+    color: rgb(226, 137, 114);	
     font-family: "Oriya MN";	
-    font-size: 18px;	
+    font-size: 20px;	
     line-height: 30px;
 }
 #ppp2content{
     position: absolute;
-    left: 290px;
-    top: 340px;
+    left: 330px;
+    top: 355px;
 }
 #plantp3{
     position: relative;
@@ -875,15 +874,15 @@ iframe{
     margin-left: 150px;
 }
 .ppp3title{
-    color:#8EC7C3;
+    color:rgb(71, 168, 162);
     font-family: "Lucida Grande";	
-    font-size: 18px;	
+    font-size: 30px;	
     line-height: 35px;
 }
 .ppp3content{
     color: #616161;	
     font-family: "Lucida Grande";	
-    font-size: 18px;	
+    font-size: 20px;	
     line-height: 35px;
 }
 #ppp3electronic{
@@ -893,7 +892,7 @@ iframe{
 }
 #ppp3facial{
     position: absolute;
-    width: 650px;
+    width: 750px;
     top: 180px;
     left: 400px;
 }
@@ -925,8 +924,9 @@ iframe{
 }
 #ppp3phonewords img{
     position: absolute;
-    width: 150px;
-    left: 535px;   
+    width: 250px;
+    left: 620px;
+    top: 1170px;   
 }
 #plantp4{
     position: relative;
@@ -943,21 +943,21 @@ margin-top: 220px;
 
 #plantp5 h4{
     position: absolute;
-    color: #E0E1E1;	
+    color: rgb(71, 168, 162);	
     font-family: "Lucida Grande";	
     font-size: 72px;	
     line-height: 85px;
-    margin-top: 50px;
+    margin-top: 280px;
     margin-left: 80px;
 }
 #plantp5 img{
-    margin-top: 50px;
-    width: 620px;
-    margin-left: 450px;
+    margin-top: 280px;
+    width: 750px;
+    margin-left: 400px;
 
 }
 #plantp6 h4{
-    color: #E0E1E1;	
+    color: rgb(71, 168, 162);	
     font-family: "Lucida Grande";	
     font-size: 72px;
 }
@@ -982,15 +982,14 @@ margin-top: 220px;
 }
 #plantp7 img{
     margin-top: 50px;
-    width: 1000px;
-    margin-left: 100px;
+    width: 1200px;
 }
 #plantp8{
     position: relative;
 }
 #plantp8 h4{
     position: absolute;
-    color: #E8D7CF;	
+    color: rgb(226, 137, 114);	
     font-family: "Lucida Grande";	
     font-size: 60px;
     top: 20px;
@@ -998,15 +997,15 @@ margin-top: 220px;
 }
 #ppp8app{
     position: absolute;
-    width: 500px;
-    top: 500px;
-    left: 500px;
+    width: 700px;
+    top: 465px;
+    left: 420px;
 }
 #ppp8device{
     position: absolute;
-    width: 650px;
-    top: 150px;
-    left: 180px;
+    width: 850px;
+    top:100px;
+    left: 130px;
 }
 #plantp9{
     position: relative;
@@ -1022,71 +1021,71 @@ margin-top: 220px;
     margin-left: 210px;
 }
 #plantp10content h4{
-    color: #DC9E8E;	
+    color: rgb(226, 137, 114);	
     font-family: "Lucida Grande";	
-    font-size: 30px;	
+    font-size: 40px;	
 }
 #plantp10content p{
     color: #4A4A4A;	
     font-family: "Lucida Grande";	
-    font-size: 12px;	
+    font-size: 18px;	
     line-height: 30px;
 }
 #plantp10content img{
-    width: 160px;
+    width: 180px;
 }
 #plantp10{
     position: relative;
 }
 #ppp10temp{
     position: absolute;
-    top: 180px;
-    left: 260px;
+    top: 220px;
+    left: 150px;
 }
 #ppp10tempcontent{
     position: absolute;
     top: 180px;
-    left: 460px;
+    left: 360px;
 }
 #ppp10water{
     position: absolute;
     top: 450px;
-    right: 230px;
+    left:150px;
 }
 #ppp10waterh4{
     position: absolute;
-    top: 490px;
-    right: 430px;
+    top: 440px;
+    left: 360px;
 }
 #ppp10waterp{
     position: absolute;
-    top: 500px;
-    right: 250px;
+    top: 490px;
+    left: 360px;
 }
 #ppp10ph{
     position: absolute;
-    left: 260px;
+    left: 150px;
     top: 660px;
 }
 #ppp10phh4{
     position: absolute;
-    left: 460px;
-    top: 690px;
+    left: 360px;
+    top: 650px;
 }
 #ppp10php{
     position: absolute;
-    left: 460px;
+    left: 360px;
     top: 700px;
 }
 #plantp11 h4{
-    color: #E8D7CF;	
+    color:rgb(226, 137, 114);	
     font-family: "Lucida Grande";	
     font-size: 72px;
 }
 #plantp11 p{
     color: #4A4A4A;	
     font-family: "Lucida Grande";	
-    font-size: 18px
+    font-size: 22px
 }
 #plantp11{
     position: relative;
@@ -1099,53 +1098,53 @@ margin-top: 220px;
 #ppp11sign{
     position: absolute;
     top: 200px;
-    left: 460px;
+    left: 480px;
 }
 #ppp11signimg{
     position: absolute;
     top: 60px;
     right: 20px;
-    width: 500px;
+    width: 560px;
 }
 #ppp11dashgif{
     position: absolute;
     top: 153px;
-    left: 50px;
+    left: 40px;
     width: 250px;
 }
 #ppp11dashimg{
     position: absolute;
     top: 400px;
     right: 0px;
-    width:780px;
+    width:870px;
 }
 #ppp11dash{
     position: absolute;
     top: 340px;
-    left: 370px;
+    left: 330px;
 }
 #ppp11calimg{
     position: absolute;
-    top: 800px;
-    width: 500px;
+    top: 860px;
+    width: 600px;
     left: 0px;
 
 }
 #ppp11cal{
     position: absolute;
-    top: 830px;
-    left: 520px;
+    top: 760px;
+    left: 20px;
 }
 #ppp11setimg{
     position: absolute;
-    top: 800px;
+    top: 860px;
     right: 140px;
-    width: 370px;
+    width: 400px;
 }
 #ppp11set{
     position: absolute;
-    top: 830px;
-    right: 20px;    
+    top: 760px;
+    left: 660px;    
 }
 #plantp12{
     position: relative;
@@ -1393,15 +1392,14 @@ margin-top: 220px;
     position: absolute;
     color: #FFFFFF;	
     font-size: 150px;
-    top: 40px;
     right: 390px;
 }
 #kcsys05 h4{
     position: absolute;
     color: #ABF3FF;	
     font-size: 40px;
-    right: 390px;
-    top: 240px;
+    right: 320px;
+    top: 170px;
 }
 
 
@@ -1629,7 +1627,7 @@ display:none;
 .indexslider {
     transform: scaleX(0);
     transform-origin:100% 50%;
-    animation:3s 1 3.5s indexslider forwards ease;
+    animation:3s 1 1.5s indexslider forwards ease;
 }
 @keyframes indexslider{
     100%{
@@ -1699,12 +1697,12 @@ li.slick-active:nth-child(3) button:before{
 .slick-dots li:hover:before{
     width:300%;
 }
-.slick-dots li:nth-child(1):before{
+/* .slick-dots li:nth-child(1):before{
     background-color: rgb(171, 202, 70);}
 .slick-dots li:nth-child(2):before{
     background-color: rgb(241, 116, 58);}
 .slick-dots li:nth-child(3):before{
-    background-color:  rgb(81, 131, 179);}
+    background-color:  rgb(81, 131, 179);} */
 /* 被選到的時候固定底線 */
 .slick-dots li:nth-child(1).slick-active:before{
     width:300%
