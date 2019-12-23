@@ -325,6 +325,11 @@ transition:2s;
 .yilanchair img{
     width: 100%;
 }
+.yummyslider{
+    width: 950px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
 .yummyslider .slick-slide{
     height:100%!important;
 }
@@ -401,6 +406,9 @@ transition:2s;
     grid-template-columns:60% 40%; 
     text-align: left;    
 }
+.designconcept p{
+    font-size: 18px;
+}
 .light h1 {
     color:#10455B;
 }
@@ -412,20 +420,37 @@ transition:2s;
     margin-left: 0px;
 }
 .designconceptwords{
-    margin-left: 10px;
-    margin-top: 120px;   
+    margin-left: 100px;
+    margin-top:55px;   
+}
+.lightslider{
+    width: 950px;
+    margin-left: 135px;
+    margin-top: 20px;
 }
 .lightslider .slick-slide{
     height:100%!important;
 }
 .shilogo img{
-    width: 100%;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 20px;
 }
-.lightexploded{
-    width:70%;
+.explodedlight{
+    display:grid;
+    grid-template-columns:60% 40%; 
+    text-align: left;    
+    margin-bottom: 50px;
+}
+.explodedlight p{
+    font-size: 18px;
+}
+.explodedlight img{
+    width:85%;
+    margin-left: 60px;
 }
 .instructionwords{
-    margin-bottom: 20px;
+    margin-top: 150px;
 }
 .museumslider .slick-slide{
     height:100%!important;
@@ -436,19 +461,17 @@ transition:2s;
 .museum p{
     text-align: center;
     color: rgb(75, 73, 73);
+    font-size: 18px;
+    margin:30px;
 }
 .museum h2{
     text-align: center;
     color: #FFAF20;
     }
-
-.museum p{
-    margin:30px;
-    color: rgb(75, 73, 73);
-}
 .onsale p{
     text-align: center;
     color: rgb(75, 73, 73);
+    font-size: 18px;
 }
 .onsale{
     text-align: center;
@@ -517,8 +540,14 @@ margin-bottom: 50px;
 .group p{
     margin-bottom: 50px;
 }
+.yenmuslider{
+    width: 950px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
 .yenmuslider .slick-slide{
     height:100%!important;
+    
 } 
 iframe{
     width:100%;
@@ -744,7 +773,7 @@ iframe{
     top: 85px;
 }
 #ufop8content img{
-    width: 250px;
+    width: 300px;
 }
 #ufop8content{
     position: relative;
@@ -763,18 +792,18 @@ iframe{
 }
 #ufop8phone1{
     position: absolute;
-    top: -2000px;
+    top: -2080px;
     left:220px;    
 }
 #ufop8phone2{
     position: absolute;
-    top: -1850px;
+    top: -1950px;
     right:220px;
 }
 #ufop8phone3{
     position: absolute;
     top: -1250px;
-    left:190px;
+    left:100px;
 }
 #ufop8phone4{
     position: absolute;
@@ -799,7 +828,7 @@ iframe{
 #ufop8phone6{
     position: absolute;
     top: -650px;
-    right:170px;
+    right:100px;
 }
 #ufop8phone5words1{
     position: absolute;
@@ -925,7 +954,7 @@ iframe{
 #ppp3phonewords img{
     position: absolute;
     width: 250px;
-    left: 620px;
+    left: 600px;
     top: 1170px;   
 }
 #plantp4{
@@ -948,12 +977,12 @@ margin-top: 220px;
     font-size: 72px;	
     line-height: 85px;
     margin-top: 280px;
-    margin-left: 80px;
+    margin-left: 10px;
 }
 #plantp5 img{
     margin-top: 280px;
-    width: 750px;
-    margin-left: 400px;
+    width: 1100px;
+    margin-left: 150px;
 
 }
 #plantp6 h4{
@@ -965,14 +994,14 @@ margin-top: 220px;
     margin-top: 50px;
 }
 #ppp6iconlist img{
-    width: 700px;
+    width: 850px;
     margin-top: 50px;
 }
 #ppp6color{
     text-align: right;
 }
 #ppp6color img{
-    width: 600px;
+    width: 750px;
     margin-top: 50px;
 }
 #ppp6typeface img{
@@ -992,23 +1021,40 @@ margin-top: 220px;
     color: rgb(226, 137, 114);	
     font-family: "Lucida Grande";	
     font-size: 60px;
-    top: 20px;
+    top: 5px;
     left: 50px;
 }
 #ppp8app{
     position: absolute;
     width: 700px;
-    top: 465px;
+    top: 490px;
     left: 420px;
 }
 #ppp8device{
     position: absolute;
-    width: 850px;
-    top:100px;
-    left: 130px;
+    width: 990px;
+    top:80px;
+    left: 40px;
 }
 #plantp9{
     position: relative;
+}
+#plantp9 h4{
+    color: rgb(226, 137, 114);	
+    font-family: "Lucida Grande";	
+    font-size: 40px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+#plantp9 p{
+    color: #4A4A4A;	
+    font-family: "Lucida Grande";	
+    font-size: 18px;	
+    line-height: 30px;
+    position: absolute;
+    top: 170px;
+    left: 500px;
 }
 #ppp9gif{
     position: absolute;
@@ -1017,7 +1063,7 @@ margin-top: 220px;
     top: 90px;
 }
 #plantp10bg{
-    width: 720px;
+    width: 890px;
     margin-left: 210px;
 }
 #plantp10content h4{
@@ -1032,40 +1078,40 @@ margin-top: 220px;
     line-height: 30px;
 }
 #plantp10content img{
-    width: 180px;
+    width: 160px;
 }
 #plantp10{
     position: relative;
 }
 #ppp10temp{
     position: absolute;
-    top: 220px;
-    left: 150px;
+    top: 140px;
+    left: 145px;
 }
 #ppp10tempcontent{
     position: absolute;
-    top: 180px;
+    top: 100px;
     left: 360px;
 }
 #ppp10water{
     position: absolute;
-    top: 450px;
+    top: 410px;
     left:150px;
 }
 #ppp10waterh4{
     position: absolute;
-    top: 440px;
+    top: 410px;
     left: 360px;
 }
 #ppp10waterp{
     position: absolute;
-    top: 490px;
+    top: 450px;
     left: 360px;
 }
 #ppp10ph{
     position: absolute;
-    left: 150px;
-    top: 660px;
+    left: 143px;
+    top: 680px;
 }
 #ppp10phh4{
     position: absolute;
@@ -1092,61 +1138,65 @@ margin-top: 220px;
 }
 #ppp11h4{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 80px;
+    left: 170px;
 }
-#ppp11sign{
+#ppp11h4-2{
     position: absolute;
-    top: 200px;
-    left: 480px;
+    top: 80px;
+    right: 140px;
+}
+/* #ppp11sign{
+    position: absolute;
+    top: 100px;
+    left: 370px;
 }
 #ppp11signimg{
     position: absolute;
     top: 60px;
     right: 20px;
-    width: 560px;
-}
+    width: 700px;
+} */
 #ppp11dashgif{
     position: absolute;
-    top: 153px;
-    left: 40px;
+    top: -100px;
+    right: 490px;
     width: 250px;
 }
 #ppp11dashimg{
     position: absolute;
-    top: 400px;
+    top: 450px;
     right: 0px;
-    width:870px;
+    width:1030px;
 }
 #ppp11dash{
     position: absolute;
-    top: 340px;
-    left: 330px;
+    top: 500px;
+    left: 30px;
 }
 #ppp11calimg{
     position: absolute;
-    top: 860px;
+    top: 970px;
     width: 600px;
     left: 0px;
-
 }
 #ppp11cal{
     position: absolute;
-    top: 760px;
+    top: 920px;
     left: 20px;
 }
 #ppp11setimg{
     position: absolute;
-    top: 860px;
-    right: 140px;
-    width: 400px;
+    top: 960px;
+    right: 10px;
+    width: 530px;
 }
 #ppp11set{
     position: absolute;
-    top: 760px;
+    top: 910px;
     left: 660px;    
 }
-#plantp12{
+/* #plantp12{
     position: relative;
 }
 #ppp12bg{
@@ -1158,7 +1208,7 @@ margin-top: 220px;
     top: 95px;
     left: 200px;
     width: 600px;
-}
+} */
 .kcsystitle h1{
     color: #013567;	
 }
@@ -1266,7 +1316,7 @@ margin-top: 220px;
 }
 #kcsys02icontext{
     position: absolute;
-    width: 381px;
+    width: 300px;
     top: 600px;
     left: 50px;
 }
@@ -1300,12 +1350,12 @@ margin-top: 220px;
 }
 #kcsys0304img{
     position: absolute;
-    width: 938px;
-    top: 620px;
-    left: 100px;
+    width: 1050px;
+    top: 550px;
+    left: 40px;
 }
 #kcsys03{
-    top: 565px;
+    top: 550px;
     left: 30px;
     z-index: 2;
 }
@@ -1315,62 +1365,61 @@ margin-top: 220px;
     z-index: 2;
 }
 #kcsys04{
-    top: 1430px;
-    right: 330px;
+    top: 1490px;
+    right: 310px;
 }
 #kcsysotherpage{
-    top: 1460px;
-    right: 200px;
+    top: 1540px;
+    right: 180px;
 }
 #kcsys0304 h5{
     position: absolute;
-    color: #EAECEE;		
+    color: rgb(116, 115, 115);		
     font-size: 28px;
 }
 #kcsys0304news{
-    top: 800px;
-    left: 136px;
+    top: 720px;
+    left: 85px;
 }
 #kcsys0304product{
     top: 1120px;
-    left: 136px;
+    left: 85px;
 }
 #kcsys0304contact{
-    top: 1670px;
-    right: 160px;
+    top: 1720px;
+    right: 335px;
 }
 #kcsys0304p{
     position: relative;
     color: #395D85;		
-    font-size: 13px;
+    font-size: 18px;
 }
 #kcsysnewsp{
     position: absolute;
-    top:-2217px;
-    left: 235px;
+    top:-2270px;
+    left: 85px;
 }
 #kcsysproductp{
     position: absolute;
-    top: -1500px;
-    left: 260px;
+    top: -1470px;
+    left: 230px;
 }
 #kcsyscontactp{
     position: absolute;
-    top: -1315px;
-    right: 160px;
-    text-align: right;
+    top: -1265px;
+    right: 140px;
 }
 #kcsys0304clients{
-    top: 2030px;
-    left: 370px;
+    top: 2130px;
+    left: 120px;
 }
 #kcsys0304business{
-    top: 2180px;
+    top: 2300px;
     left: 500px;
 }
 #kcsys0304about{
-    top: 2230px;
-    right: 160px;
+    top: 2350px;
+    right: 140px;
 }
 #kcsys05{
     position: relative;
@@ -1381,9 +1430,9 @@ margin-top: 220px;
 }
 #kcsys05img{
     position: absolute;
-    width: 700px;
-    top: 250px;
-    left: 220px;
+    width: 750px;
+    top: 200px;
+    left: 240px;
 }
 #kcsysfooter{
     margin-top: 1400px;
@@ -1393,13 +1442,14 @@ margin-top: 220px;
     color: #FFFFFF;	
     font-size: 150px;
     right: 390px;
+    top: -70px;
 }
 #kcsys05 h4{
     position: absolute;
     color: #ABF3FF;	
     font-size: 40px;
     right: 320px;
-    top: 170px;
+    top: 100px;
 }
 
 
