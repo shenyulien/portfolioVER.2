@@ -22,10 +22,10 @@
 #navigation{
     padding:20px 0;
     overflow: hidden;
-    height:20.5vh;
+    height:22vh;
     /* position: fixed; */
     width: 100%;
-    background-color: rgb(249, 243, 237);
+    background-color: rgb(19, 66, 110);
     /* 前後順序1最前面 */
     z-index: 3;
 }
@@ -40,7 +40,7 @@
 }
 #logo a{
     text-decoration: none;
-    color: #10455B;
+    color: rgb(242, 245, 247);
     text-align: center;   
 }
 #nav-bar{
@@ -53,7 +53,7 @@
     margin: 20px;
     text-decoration: none;
     padding-bottom: 5px;
-    color: rgb(77, 77, 77);
+    color: rgb(167, 167, 167);
     /* 定位 相對定位(父元素) */
     position: relative;
     font-weight: 600;
@@ -68,7 +68,7 @@
     content:"";
     /* 定位:絕對定位(子元素) */
     position:absolute;
-    background-color: #000;
+    background-color: rgb(167, 167, 167);
     width: 90%;
     height:1px;
     margin:0 5%;
@@ -267,10 +267,10 @@ color:rgb(89, 170, 190);
     width: 100%;
 }
 .picture1 h1{
-    font-size: 60px;
+    font-size: 48px;
     margin: 10px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     color: #10455B;
 }
 .title h2{
