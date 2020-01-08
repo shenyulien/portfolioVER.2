@@ -1451,9 +1451,565 @@ margin-top: 220px;
     right: 320px;
     top: 100px;
 }
-
-
-
+/* asthma */
+.asthma01{
+    position: relative;
+}
+#asp1logo{
+    position: absolute;
+    left: 500px;
+    top: 60px;
+    width: 200px;
+}
+.asthma01 h4{
+    color: #013567;		
+    font-size: 38px;	
+    letter-spacing: 11.43px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 495px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.asthma01 p{
+    color: #013567;		
+    font-size: 16px;	
+    letter-spacing: 1.71px;	
+    line-height: 33px;	
+    text-align: center;
+    margin-left: 263px;
+}
+#asp1words{
+    position: absolute;
+    top: 270px;
+}
+#asp1iconmeasure{
+    width: 160px;
+    margin-left: 270px;
+}
+#asp1iconrecord{
+    width: 100px;
+    margin-left: 150px;   
+}
+#asp1iconshare{
+    width: 70px;
+    margin-left: 150px;
+}
+#asp1icon{
+    position: absolute;
+    top: 630px;
+}
+.asthma02 img{
+    width:1120px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.asthma02{
+    position: relative;
+}
+.asthma02 h4{
+    color: #9B9B9B;
+    font-size: 48px;	
+    font-weight: bold;	
+    letter-spacing: 3.42px;	
+    line-height: 51px;
+    position: absolute;
+    top: 100px;
+}
+.asthma03 img{
+    margin-top: 200px;
+}
+.asthma03{
+    position: relative;;
+}
+.asthma03 h4{
+    color: #9B9B9B;
+    font-size: 48px;	
+    font-weight: bold;	
+    letter-spacing: 3.42px;	
+    line-height: 51px;
+    position: absolute;
+    top: 100px;
+}
+.asthma04{
+    position: relative;
+}
+.asthma04 h4{
+    color: #013567;	
+    font-size:45px;	
+    letter-spacing: 4.28px;	
+    margin-bottom: 20px;
+}
+.asthma04 p{
+    color: #FFFFFF;	
+    font-size: 16px;	
+    letter-spacing: 1.5px;	
+    line-height: 40px;
+}
+.asthma04words{
+    position: absolute;
+    top: 420px;
+    left: 70px;
+}
+#asp4login{
+    width: 480px;
+    position: absolute;
+    top: 112px;
+    right: 30px;
+}
+.asthma05{
+    position: relative;
+}
+.asthma05 h4{
+    color: #013567;	
+    font-size: 48px;	
+    letter-spacing: 3.42px;
+    position: absolute;
+    top: 40px;
+}
+#asp5color{
+    position: absolute;
+    width: 500px;
+    top: 160px;
+    left: 50px;
+}
+#asp5typo{
+    position: absolute;
+    width: 300px;
+    right: 100px;
+    top: 170px;
+}
+#asp5icon{
+    position: absolute;
+    width: 1000px;
+    top: 420px;
+    left: 50px;
+}
+.asthma06{
+    position: relative;
+}
+.asthma06 p{
+    color: #013567;
+    font-size: 18px;	
+    letter-spacing: 1px;	
+    line-height: 33px;
+    position: absolute;
+}
+.asthma06 img{
+    position: absolute;
+}
+#asp6profile{
+    width: 1100px;
+    top: 20px;
+    left: 50px;
+}
+#aslogin{
+    right: 250px;
+    top: 100px;
+}
+#assmoke{
+    left:120px;
+    top: 600px;
+}
+#asp6attack{
+    top: 900px;
+    width: 1100px;
+    left: 50px;
+}
+#asmainpage{
+    top: 870px;
+    left: 185px;
+}
+#aswhenfeel{
+    top: 1665px;
+    left: 200px;
+}
+#asusethelens{
+    top: 1830px;
+    left: 310px;
+}
+#asusethephone{
+    top: 2257px;
+    right: 200px;
+}
+#assendtheemergency{
+    top: 2550px;
+    left: 180px;
+}
+#asp6aqi{
+    top: 3450px;
+    width: 800px;
+    right: 40px;
+}
+#astheaqi{
+    top: 3520px;
+    left: 50px;
+}
+#asp6icon{
+    width: 280px;
+    top: 3680px;
+    left: 45px;
+}
+#asthelevel{
+    top: 3800px;
+    left: 50px;
+}
+#asp6diary{
+    width: 530px;
+    top: 3990px;
+    left: 50px;
+}
+#astheappcan{
+    top: 4180px;
+    right: 50px;
+}
+#asp6record{
+    width: 750px; 
+    top: 4510px;
+    right: 50px;
+}
+#asinaddition{
+    top: 4700px;
+    left: 60px;
+}
+#asp6reminder{
+    width: 280px;
+    top: 5000px;
+    left: 60px;
+}
+#astheappallows{
+    top: 5200px;
+    right: 50px;
+}
+#asp6setting{
+    width: 850px;
+    top: 5580px;
+    right: 50px;
+}
+/* trb */
+.trb01{
+    position: relative;
+}
+.trb02{
+    position: relative;
+}
+.trb02 p{
+    position: absolute;
+    top: 460px;
+    left: 300px;
+    font-family: Futura;	
+    font-size: 24px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 0.51px;	
+    line-height: 32px;	
+    text-align: center;
+}
+#trbp1device{
+    position: absolute;
+    width: 750px;
+    right: 100px;
+    top: 400px;
+}
+.trb03{
+    position: relative;
+}
+.trb03 p{
+    color: #000000;	
+    font-family: Futura;	
+    font-size: 18px;	
+    font-weight: 500;	
+    letter-spacing: 0.51px;	
+    line-height: 32px;
+}
+.trb03 h4{
+    color: #1DE2D0;	
+    font-family: Futura;	
+    font-size: 36px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 0.77px;	
+    line-height: 47px;
+}
+.trb03light{
+    position: absolute;
+    top: 75px;
+    left: 260px;
+}
+.trb03easy{
+    position: absolute;
+    top: 330px;
+    left: 260px;
+}
+.trb03combine{
+    position: absolute;
+    top:620px ;
+    left: 260px;
+}
+#trbp4part{
+    width: 180px;
+    margin: 100px;
+    margin-left: 170px;
+}
+.trb04 p{
+    color: #000000;
+    font-family: Futura;	
+    font-size: 18px;	
+    font-weight: 500;	
+    letter-spacing: 0.77px;	
+    line-height: 47px;
+}
+.trb04{
+    position: relative;
+}
+.trbp4the{
+    position: absolute;
+    top: 610px;
+    left: 400px;
+}
+.trbp4by{
+    position: absolute;
+    top: 890px;
+    left: 400px;
+}
+.trbp4use{
+    position: absolute;
+    top: 1160px;
+    left: 400px;
+}
+.trb05{
+    position: relative;
+}
+#trbp5pic{
+    width: 800px;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+.trb05 p{
+    color: #000000;
+    position: absolute;
+    font-family: Futura;	
+    font-size: 24px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 0.51px;
+    top: 160px;
+    right: 155px;		
+}
+.trb06{
+    position: relative;
+}
+#trbp6flow{
+    width: 1000px;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+.trb06 h4{
+    color: #000000;	
+    font-family: Futura;	
+    font-size: 72px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 2.3px;	
+    line-height: 96px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.trb07{
+    position: relative;
+}
+.trb07 img{
+    width: 1100px;
+    margin-left: 70px;
+    margin-top: 220px;
+}
+.trb07 h4{
+    position: absolute;
+    color: #000000;	
+    font-family: Futura;	
+    font-size: 68px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 2.3px;	
+    line-height: 96px;
+    top: 0px;
+}
+.trb08{
+    position: relative;
+}
+.trb08 h4{
+    position: absolute;
+    color: #000000;	
+    font-family: Futura;	
+    font-size: 68px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 2.3px;	
+    line-height: 96px;
+}
+.trbp8wireframe{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+.trbp8app{
+    position: absolute;
+    left: 30px;
+    top: 200px;
+}
+.trbp8device{
+    position: absolute;
+    left: 30px;
+    top: 1240px;
+}
+.trb09{
+    position: relative;
+}
+#trbp9deviceimg{
+    width: 1000px;
+    position: absolute;
+    left: 120px;
+    top: 180px;
+}
+.trb09 h4{
+    color: #7535F2;	
+    font-family: Futura;	
+    font-size: 68px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 2.3px;	
+    line-height: 96px
+}
+.trbp9device{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+#trbp9acc{
+    width: 720px;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+.trb09 h5{
+    color: #000000;	
+    font-family: Futura;	
+    font-size: 32px;	
+    font-weight: 500;	
+    letter-spacing: 1.54px;	
+    line-height: 63px;
+}
+.trb09 p{
+    color: #000000;	
+    font-family: Futura;	
+    font-size: 18px;	
+    font-weight: 500;	
+    letter-spacing: 0.77px;	
+    line-height: 32px;
+}
+.trbp9accmode{
+    position: absolute;
+    top:520px ;
+    left: 80px;
+}
+.trbp9heartrate{
+    position: absolute;
+    top: 779px;
+    left: 190px;
+}
+.trbp9scroll{
+    position: absolute;
+    top: 800px;
+    right: 180px;
+}
+#trbp9planimg{
+    width: 900px;
+    position: absolute;
+    top: 1200px;
+    left: 180px;
+}
+.trbp9plan{
+    position: absolute;
+    top: 1140px;
+    left: 80px;
+}
+.trbp9set{
+    position: absolute;
+    top: 1240px;
+    left: 80px;
+}
+.trbp9inside {
+    position: absolute;
+    top: 1240px;
+    left: 508px;
+}
+.trb10{
+    position: relative;
+}
+#trbp10{
+    width:1150px ;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.trb10 h4{
+    color: #7535F2;	
+    font-family: Futura;	
+    font-size: 68px;	
+    font-style: italic;	
+    font-weight: 500;	
+    letter-spacing: 2.3px;	
+    line-height: 96px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.trb10 p{
+    color: #000000;	
+    font-family: Futura;	
+    font-size: 16px;	
+    font-weight: 500;	
+    letter-spacing: 0.58px;	
+    line-height: 25px;
+}
+.trb10splashscreen{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.trb10fill{
+    position: absolute;
+    top: 120px;
+    left: 330px;
+}
+.trb10connect{
+    position: absolute;
+    top: 450px;
+    right: 10px;
+}
+.trb10dash{
+    position: absolute;
+    top: 565px;
+    left: 205px;
+}
+.trb10plan{
+    position: absolute;
+    top: 1080px;
+    left: 100px;
+}
+.trb10sta{
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+}
+.trb10setting{
+    position: absolute;
+    top: 1600px;
+    right:270px;
+}
 
 /* 作品頁 */
 .workhover img{
